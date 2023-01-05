@@ -12,7 +12,7 @@ def ocr_dump_folder():
 
     # Get a set of three example images
     images = [
-        keras_ocr.tools.read(url) for url in [i for i in absoluteFilePaths(r"./imageDump") if os.path.splitext('/path/to/somefile.ext')[1] in [".png", ".jpg"]]
+        keras_ocr.tools.read(url) for url in [i for i in absoluteFilePaths(r"./imageDump")]
     ]
 
     # Each list of predictions in prediction_groups is a list of
