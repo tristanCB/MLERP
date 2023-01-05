@@ -1,0 +1,221 @@
+{
+    "name": "ReceiptsDataset",
+    "securityToken": "ReceiptsDataset Token",
+    "sourceConnection": {
+        "name": "orthoganalViews",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYmIwMWMxZWEzNWEyOTcxNDAyZjM2MmI4YTljZDFhN2QwY2Q1N2YyYWNkMWUwNGYxNDZiOWMyZGYyM2YxNDI1YWEwYWZlYTc4ZmUyOTJiYjFjMzQ5Y2Q4Yzc3NGJjNjNmZDcwODU0NjgzNThjZTRhYThlNWFhOTRiODQwY2E1YWEiLCJpdiI6IjM5Y2U2NTdjNGI0YTNiN2E0Zjg4YzBkZDM0YTZmZWEzYTQ5YTAwMDNjYTEyYjVkNiJ9"
+        },
+        "id": "yaVNx5Bg2"
+    },
+    "targetConnection": {
+        "name": "orthoganalViews",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOGMyZWYxZDBmNjRhZmRjMjcyOWJhNzJjNzYzYThjNDg5YzExNTUyNjcyMTJhNTYzMjgzMjVjNTNkZWY1ZDk1NGE3OGMyY2NmMWQ2ZjRkMGU5Yjg2ODAzMmY5ZjFjNjYyMTEwNjYzZGI2M2ZjMmVlMGY2ZGIyZGFmNTA2MTllODMiLCJpdiI6ImM4Y2ZlNThkM2VmYWFiY2M5ZDQwNjhmOWIwNTdhY2M2Mzk1ZTgxM2EzNzQ3MWQ0YSJ9"
+        },
+        "id": "yaVNx5Bg2"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "Company",
+            "color": "#5db300"
+        },
+        {
+            "name": "LineItem",
+            "color": "#e81123"
+        },
+        {
+            "name": "ItemGroup",
+            "color": "#6917aa"
+        },
+        {
+            "name": "Total",
+            "color": "#015cda"
+        },
+        {
+            "name": "Payment",
+            "color": "#4894fe"
+        },
+        {
+            "name": "Date",
+            "color": "#6b849c"
+        }
+    ],
+    "id": "rXRjU0C5W",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "csv",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiODRjMDhlMjk5ZjNiZjQ0ZDIxM2JlZDNlM2ZhYmUxYmZlMmY0OTUwYmJjYmNhODJiMzBmMGZiYjFjMGM0NDIxZjUzNzlkODYzMmQzN2U5MmQ1YmYwZGI4NWJkYWY2MjU4IiwiaXYiOiJjOTcxNGNiZDZlOWVhOGNjOWM4YmJhNTVhMmE4MTY0ZDllNzgzMTMyYmFlZGJiNGYifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "fb84b09c0f363c42f52d7233c3ee9995",
+    "assets": {
+        "6f3320dd5348810959935adf5d0b7f7d": {
+            "format": "png",
+            "id": "6f3320dd5348810959935adf5d0b7f7d",
+            "name": "IMG_3891.png",
+            "path": "file:C:/Users/Tristan/Desktop/MLERP/oriented/IMG_3891.png",
+            "size": {
+                "width": 627,
+                "height": 836
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8fbf62e4d6fb84fcc477383941ffdcee": {
+            "format": "png",
+            "id": "8fbf62e4d6fb84fcc477383941ffdcee",
+            "name": "IMG_3892.png",
+            "path": "file:C:/Users/Tristan/Desktop/MLERP/oriented/IMG_3892.png",
+            "size": {
+                "width": 627,
+                "height": 836
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1944b58a310c7f6c2335b117431698e5": {
+            "format": "png",
+            "id": "1944b58a310c7f6c2335b117431698e5",
+            "name": "IMG_3893.png",
+            "path": "file:C:/Users/Tristan/Desktop/MLERP/oriented/IMG_3893.png",
+            "size": {
+                "width": 836,
+                "height": 627
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2a21b6850448809b7ecb0a4f141ed078": {
+            "format": "png",
+            "id": "2a21b6850448809b7ecb0a4f141ed078",
+            "name": "IMG_3894.png",
+            "path": "file:C:/Users/Tristan/Desktop/MLERP/oriented/IMG_3894.png",
+            "size": {
+                "width": 836,
+                "height": 627
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0c1b65287f41aa99046b3a2b1eb23ab0": {
+            "format": "png",
+            "id": "0c1b65287f41aa99046b3a2b1eb23ab0",
+            "name": "IMG_3895.png",
+            "path": "file:C:/Users/Tristan/Desktop/MLERP/oriented/IMG_3895.png",
+            "size": {
+                "width": 836,
+                "height": 627
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ebcabc010a59255ec339b1d2e9879ba2": {
+            "format": "png",
+            "id": "ebcabc010a59255ec339b1d2e9879ba2",
+            "name": "IMG_3896.png",
+            "path": "file:C:/Users/Tristan/Desktop/MLERP/oriented/IMG_3896.png",
+            "size": {
+                "width": 834,
+                "height": 568
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d5ed6bb7dcf1744f1d7c9252f4dcc7ac": {
+            "format": "png",
+            "id": "d5ed6bb7dcf1744f1d7c9252f4dcc7ac",
+            "name": "IMG_3897.png",
+            "path": "file:C:/Users/Tristan/Desktop/MLERP/oriented/IMG_3897.png",
+            "size": {
+                "width": 627,
+                "height": 836
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fc47009166e891bcff7643df4cefb51e": {
+            "format": "png",
+            "id": "fc47009166e891bcff7643df4cefb51e",
+            "name": "IMG_3898.png",
+            "path": "file:C:/Users/Tristan/Desktop/MLERP/oriented/IMG_3898.png",
+            "size": {
+                "width": 836,
+                "height": 627
+            },
+            "state": 2,
+            "type": 1
+        },
+        "67ad870bb363d9c5f38048c028496fcb": {
+            "format": "png",
+            "id": "67ad870bb363d9c5f38048c028496fcb",
+            "name": "IMG_3900.png",
+            "path": "file:C:/Users/Tristan/Desktop/MLERP/oriented/IMG_3900.png",
+            "size": {
+                "width": 836,
+                "height": 627
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fc6c73bd346ab5db09ea411b8053e5d6": {
+            "format": "png",
+            "id": "fc6c73bd346ab5db09ea411b8053e5d6",
+            "name": "IMG_3901.png",
+            "path": "file:C:/Users/Tristan/Desktop/MLERP/oriented/IMG_3901.png",
+            "size": {
+                "width": 836,
+                "height": 627
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5748c30f81660964d55c138550770072": {
+            "format": "png",
+            "id": "5748c30f81660964d55c138550770072",
+            "name": "IMG_3902.png",
+            "path": "file:C:/Users/Tristan/Desktop/MLERP/oriented/IMG_3902.png",
+            "size": {
+                "width": 836,
+                "height": 627
+            },
+            "state": 2,
+            "type": 1
+        },
+        "497894542fa3500a5fd2cdf9b52d7db9": {
+            "format": "png",
+            "id": "497894542fa3500a5fd2cdf9b52d7db9",
+            "name": "IMG_3903.png",
+            "path": "file:C:/Users/Tristan/Desktop/MLERP/oriented/IMG_3903.png",
+            "size": {
+                "width": 627,
+                "height": 836
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fb84b09c0f363c42f52d7233c3ee9995": {
+            "format": "png",
+            "id": "fb84b09c0f363c42f52d7233c3ee9995",
+            "name": "IMG_3904.png",
+            "path": "file:C:/Users/Tristan/Desktop/MLERP/oriented/IMG_3904.png",
+            "size": {
+                "width": 836,
+                "height": 627
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
