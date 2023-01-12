@@ -3,7 +3,7 @@ import numpy as np
 import os
 from utils.utils import absoluteFilePaths
 
-def extractTextBoxes(path):
+def extractTextBoxes(path, ksize = (5,1)):
     large = cv2.imread(path)
     rgb = cv2.pyrDown(large)
     small = cv2.cvtColor(rgb, cv2.COLOR_BGR2GRAY)
@@ -13,7 +13,7 @@ def extractTextBoxes(path):
 
     _, bw = cv2.threshold(grad, 0.0, 255.0, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
 
-    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (40,2))
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, ksize)
     connected = cv2.morphologyEx(bw, cv2.MORPH_CLOSE, kernel)
     # using RETR_EXTERNAL instead of RETR_CCOMP
     contours, hierarchy = cv2.findContours(connected.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)

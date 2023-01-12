@@ -1,7 +1,14 @@
 
-from utils import acumaticaUtils
+from utils import acumaticaUtils, utils
+from detection import cv2ObjectDetection, ocr
 import random
 import string
+
+# utils.convertHEICtopng("./BigFungusReceipts")
+testImage = "./BigFungusReceipts/0.png"
+ocr.ocr_image(testImage)
+cv2ObjectDetection.extractTextBoxes(testImage)
+exit()
 
 # printing lowercase
 def getRandomString(length):
